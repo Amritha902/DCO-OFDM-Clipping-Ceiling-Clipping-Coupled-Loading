@@ -1,0 +1,13 @@
+\begin{table}[t]\centering\footnotesize
+\caption{Throughput (Mb/s) through the ngspice circuit, LED with droop}\label{tab:spice}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Scheme \;/\; $E_b/N_0$ & 10\,dB & 15\,dB & 20\,dB & 25\,dB \\\midrule
+Uniform 16-QAM, full power & 37.17 & 30.91 & 26.46 & 23.71 \\
+Base paper, Alg.~1 (PGD) & 39.54 & 36.21 & 31.15 & 26.74 \\
+Base paper, best MB pmf & 39.52 & 36.20 & 31.29 & 26.62 \\
+Entropy loading, uncoupled & 38.48 & 31.90 & 27.17 & 24.25 \\
+Coupled power loading~\cite{ling2020} & 38.36 & 38.14 & 38.32 & 38.17 \\
+\textbf{CC-EPL} & \textbf{39.58} & \textbf{39.48} & \textbf{39.62} & \textbf{39.37} \\
+\midrule CC-EPL vs Alg.~1 & +0.1\,\% & +9.0\,\% & +27.2\,\% & +47.3\,\% \\
+CC-EPL vs~\cite{ling2020} & +3.2\,\% & +3.5\,\% & +3.4\,\% & +3.2\,\% \\
+\bottomrule\end{tabular}\end{table}

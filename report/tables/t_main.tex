@@ -1,0 +1,15 @@
+\begin{table}[t]\centering\footnotesize
+\caption{Analytical throughput (Mb/s) at $E_b/N_0=15$\,dB}\label{tab:main}
+\begin{tabular}{@{}lrrr@{}}\toprule
+Scheme & Flat & LED 10\,MHz & LED 5\,MHz \\\midrule
+Uniform 16-QAM, full power & 35.50 & 32.89 & 28.01 \\
+Entropy loading, uncoupled & 37.02 & 34.13 & 28.99 \\
+Base paper, one PCS pmf~\cite{pham2026} & 42.88 & 38.96 & 31.74 \\
+Uniform + optimal back-off & 51.05 & 41.94 & 32.21 \\
+Coupled power loading~\cite{ling2020} & 51.05 & 41.93 & 32.33 \\
+\textbf{CC-EPL (proposed)} & \textbf{52.40} & \textbf{43.44} & \textbf{33.37} \\
+Gaussian bound & 56.11 & 45.03 & 34.29 \\
+\midrule
+CC-EPL vs.~\cite{pham2026} & +22.2\,\% & +11.5\,\% & +5.1\,\% \\
+CC-EPL vs.~\cite{ling2020} & +2.6\,\% & +3.6\,\% & +3.2\,\% \\
+\bottomrule\end{tabular}\end{table}
