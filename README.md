@@ -127,6 +127,12 @@ yet been opened and checked one by one. Twenty are marked high confidence. Six h
 detail to confirm (pages, issue, full author list, or the journal version of the base
 paper). `docs/reference-verification.md` lists each one and what to check.
 
+## Licence
+
+MIT, see [`LICENSE`](LICENSE). The licence covers the material in this repository.
+It does not cover the cited papers or any figures reproduced from them, which stay
+under their own licences.
+
 ## Course
 
 BECE306L Digital Communication Systems, School of Electronics Engineering,
